@@ -121,6 +121,14 @@ body {
   font-family: "Sawarabi Gothic", sans-serif;
 }
 
+.bg {
+  position: fixed;
+  background: #FFF url(../img/image.jpg) center center no-repeat no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
 header {
   height: 100vh;
   position: relative;
@@ -171,27 +179,29 @@ li {
   padding: 0.4rem;
   float: left;
 }
+
 main {
   margin-top: 0;
   padding: 8rem 0;
   background: rgba(233, 233, 233, 0.55);
 }
+
 .container {
   margin: 0 auto;
   width: 34rem;
   color: #333;
 }
-.content{
+
+.content {
   padding-top: 5rem;
 }
+
 .content img {
   float: right;
   shape-margin: 5px;
   -webkit-shape-outside: url(../img/rockislive2.jpg);
   shape-outside: url(../img/rockislive2.jpg);
 }
-
-
 
 footer {
   background: #333;
