@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/earlyaccess/kokoro.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/earlyaccess/sawarabimincho.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/earlyaccess/sawarabigothic.css" rel="stylesheet" />
+  <title>咲絵 | Sakie</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      var $win = $(window),
+        $main = $('main'),
+        $nav = $('nav'),
+        navHeight = $nav.outerHeight(),
+        navPos = $nav.offset().top,
+        fixedClass = 'is-fixed';
+
+      $win.on('load scroll', function () {
+        var value = $(this).scrollTop();
+        if (value > navPos) {
+          $nav.addClass(fixedClass);
+          $main.css('margin-top', navHeight);
+        } else {
+          $nav.removeClass(fixedClass);
+          $main.css('margin-top', '0');
+        }
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="main-visual">
+      <h1 class="top-title">咲絵</h1>
+      <h2 class="sub-title">Official Site</h2>
+    </div>
+  </header>
+  <nav>
+    <ul class="container">
+      <li>
+        <a class="nav-btn" href="./index.html">Home</a>
+      </li>
+      <li>
+        <a class="nav-btn" href="./pages/about.html">Biography</a>
+      </li>
+      <li>
+        <a class="nav-btn" href="./pages/schedule.html">Live Schedule</a>
+      </li>
+      <li>
+        <a class="nav-btn" href="./pages/schedule.html">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <div class="container">
+      <div class="content">
+        <h2 class="title">Pick up</h2>
+        <h3 class="topic">「Rock is LIVE 2」出演決定！！</h3>
+        <p class="
+paragraph"><img src="./img/rockislive2.jpg" alt="rockislive2" width="300">ウェブメディアRock isと音楽誌DONUT、ライブハウスがタッグを組んで主催するライブイベント「Rock is LIVE」 その第２弾に咲絵の出演が決定！！&#40;しかもトリ…！&#41;<br>
+       <a href="http://rock-is.tv/topics/201611/3524" target="_blank" class="detail">詳しくはこちら！▷</a></p>
+        
+      </div>
+      <div class="content">
+        <h2 class="title">Pick up</h2>
+        <h3 class="topic">東京神田錦町が、シンガーソングライターの街になる<br>
+        THE WORDS TOWN WEDNESDAY<br>
+        〜Next Standard〜</h3>
+        <p class="
+paragraph">2017年1月より、毎月第4水曜日に神田錦町テラススクエア2Fのフードコートにて開催されることが決定したフリーライブイベント、『THE WORDS TOWN WEDNESDAY』。<br>
+         第一回の出演者は、主催のフォーライフミュージックエンターテイメントと咲絵による共同ブッキング。咲絵からは、彼女と同じく1996年生まれ、新成人のシンガー二人の出演が決定した。<br>
+         一人目は、温かく包み込むような歌声にどこか淋しさを纏う、タグチハナ<br>
+         二人目は、ヒトの奥底を深く突き刺して離さぬ異才。1/23解禁となる。<br>
+         "Next Standard"<br>
+         時としてメロディーは心をほどいてくれる。<br>
+         いつも君のとなりにいるシンガーソングライターは、<br>
+         いつしか君の歌になり、君だけの声になる。<br>
+         今夜ここで聴いたメロディーは<br>
+         少しだけ先のスタンダードになる。<br>
+         君はその時、何をしているだろう? いま読んでいる本やこれから手に取る一冊が、<br>
+         いま聴いているCDやこれから出会う一枚が、<br>
+         世界をキラキラさせてくれるだろう。<br>
+         BIG WEDNESDAY GOOD SONGは水曜日にやってくる。<br>
+         【公演名】 THE WORDS TOWN WEDNESDAY<br>
+         ♯1 ~Next Standard~<br>
+         【日程】 2017年1月25日&#40;水&#41;<br>
+         【場所】 テラステーブル(神田錦町テラススクエア2F) 東京都千代田区神田錦町三丁目22番地 http://terrace-square.jp/access.html<br>
+         【開場/開演】18:00 open 18:30 start<br>
+         【出演】 咲絵/村上紗由里/タグチハナ/山﨑彩音 …and More!<br>
+         【料金】入場無料&#40;出入り自由&#41;<br>
+         ※会場がフードコートの為、ご飲食をオーダーお願い致 します。ゆったりした空間で、おいしいフードを楽しみながら、自由にご覧頂けます。<br>
+         【主催】 フォーライフミュージックエンタテイメント<br>
+         <a href="http://rock-is.tv/topics/201611/3524" target="_blank" class="detail">詳しくはこちら！▷</a></p>
+        
+      </div>
+    </div>
+  </main>
+  <footer>&copy;Sakie</footer>
+</body>
+
+</html>

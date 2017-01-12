@@ -1,0 +1,246 @@
+@charset "UTF-8";
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+code,
+img,
+small,
+strong,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+
+/*=====================
+  reset-css
+=======================*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  background: #FFF url(../img/image.jpg) center center no-repeat no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Sawarabi Gothic", sans-serif;
+}
+
+header {
+  height: 100vh;
+  position: relative;
+}
+
+.main-visual {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+nav,
+ul {
+  overflow: hidden;
+  background: #eee;
+}
+
+nav {
+  height: 3rem;
+  width: 100%;
+}
+
+.nav-btn {
+  padding: 0 0.5rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #333;
+}
+
+.nav-btn:hover {
+  transition: 0.3s;
+  color: #377d7f;
+}
+
+.is-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+}
+
+li {
+  padding: 0.4rem;
+  float: left;
+}
+main {
+  margin-top: 0;
+  padding: 8rem 0;
+  background: rgba(233, 233, 233, 0.55);
+}
+.container {
+  margin: 0 auto;
+  width: 34rem;
+  color: #333;
+}
+.content{
+  padding-top: 5rem;
+}
+.content img {
+  float: right;
+  shape-margin: 5px;
+  -webkit-shape-outside: url(../img/rockislive2.jpg);
+  shape-outside: url(../img/rockislive2.jpg);
+}
+
+
+
+footer {
+  background: #333;
+  line-height: 5rem;
+  height: 5rem;
+  text-align: center;
+  color: #fff;
+}
+
+.top-title {
+  font-family: "Kokoro", serif;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #FFF;
+}
+
+.sub-title {
+  font-family: "Sawarabi Mincho", serif;
+  font-size: 2rem;
+  text-align: center;
+  color: #FFF;
+}
+
+.title {
+  font-family: "Sawarabi Mincho", serif;
+  text-align: left;
+  font-size: 2rem;
+  color: #377d7f;
+  border-bottom: solid 5px #377d7f;
+  padding-bottom: 0.3rem;
+  margin-bottom: 2.1rem;
+}
+
+.topic {
+  font-size: 1.3rem;
+  padding-bottom: 1.3rem;
+  line-height: 2.1rem;
+}
+
+.paragraph {
+  display: inline-block;
+  line-height: 1.3rem;
+}
+
+.detail {
+  display: inline-block;
+  padding: 0.3rem;
+  border: solid 0.2rem #377d7f;
+  border-radius: 0.3rem;
+  color: #333;
+}
