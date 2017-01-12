@@ -121,14 +121,6 @@ body {
   font-family: "Sawarabi Gothic", sans-serif;
 }
 
-.bg {
-  position: fixed;
-  background: #FFF url(../img/image.jpg) center center no-repeat no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: auto;
-}
-
 header {
   height: 100vh;
   position: relative;
