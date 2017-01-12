@@ -113,7 +113,7 @@ html {
 }
 
 body {
-  width: 100vw;
+  width: 100%;
   height: auto;
   background: #FFF url(../img/image.jpg) center center no-repeat no-repeat;
   background-attachment: fixed;
